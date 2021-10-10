@@ -1,0 +1,40 @@
+=============== Oct 6, 2021 (AEDT) ===============
+21:32:21.796152 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:32:21.804147 db@open opening
+21:32:21.805149 version@stat F·[] S·0B[] Sc·[]
+21:32:21.808147 db@janitor F·2 G·0
+21:32:21.808147 db@open done T·3.9995ms
+22:32:35.854411 memdb@flush N·39000 S·3MiB
+22:32:35.880396 memdb@flush created L0@3 N·39000 S·787KiB "loc..seq,v24":"version,v1"
+22:32:35.880396 version@stat F·[1] S·787KiB[787KiB] Sc·[0.25]
+22:32:35.883397 memdb@flush committed F·1 T·28.9861ms
+22:32:35.885395 journal@remove removed @1
+22:39:23.176975 db@close closing
+22:39:23.177977 db@close done T·1.002ms
+=============== Oct 6, 2021 (AEDT) ===============
+23:06:02.917931 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:06:02.920909 version@stat F·[1] S·787KiB[787KiB] Sc·[0.25]
+23:06:02.920909 db@open opening
+23:06:02.921913 journal@recovery F·1
+23:06:02.922907 journal@recovery recovering @2
+23:06:02.942897 memdb@flush created L0@4 N·5758 S·132KiB "n:\x00..ing,v42772":"n:\xfe..ong,v44008"
+23:06:02.943898 version@stat F·[2] S·919KiB[919KiB] Sc·[0.50]
+23:06:02.959891 db@janitor F·4 G·0
+23:06:02.959891 db@open done T·38.9824ms
+23:06:03.011858 table@compaction L0·2 -> L1·0 S·919KiB Q·44760
+23:06:03.049835 table@build created L1@7 N·12851 S·466KiB "loc..seq,v24":"version,v1"
+23:06:03.049835 version@stat F·[0 1] S·466KiB[0B 466KiB] Sc·[0.00 0.00]
+23:06:03.052834 table@compaction committed F-1 S-453KiB Ke·0 D·31907 T·40.9757ms
+23:06:03.056834 table@remove removed @3
+=============== Oct 7, 2021 (AEDT) ===============
+00:08:33.018139 memdb@flush N·38065 S·3MiB
+00:08:33.054288 memdb@flush created L0@9 N·38065 S·739KiB "loc..seq,v44767":"n:\xff..ong,v60444"
+00:08:33.054288 version@stat F·[1 1] S·1MiB[739KiB 466KiB] Sc·[0.25 0.00]
+00:08:33.059286 memdb@flush committed F·1 T·41.1473ms
+00:08:33.064290 journal@remove removed @5
+00:08:47.172805 table@compaction L0·1 -> L1·1 S·1MiB Q·83007
+00:08:47.211784 table@build created L1@10 N·21598 S·795KiB "loc..seq,v44767":"version,v1"
+00:08:47.211784 version@stat F·[0 1] S·795KiB[0B 795KiB] Sc·[0.00 0.01]
+00:08:47.213783 table@compaction committed F-1 S-410KiB Ke·0 D·29318 T·40.9785ms
+00:08:47.214782 table@remove removed @9
+00:08:47.215782 table@remove removed @7
